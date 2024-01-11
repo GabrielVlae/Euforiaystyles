@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <!-------------- BOOSTRAP --------------->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"/>
+    <!----------- CSS ------------->
+    <link rel="stylesheet" href="../css/styles.css">
+    <!----------- BOOSTRAP ICONOS --------------->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+</head>
+<body>
+
+    <!------------------ HEADER ------------------------>
+
+    <header class="container-fluid p-0">
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+  
+              <a class="navbar-brand" href="#">
+                <img class="logo logo-1" src="../imagenes/logo.png" alt="Logo">
+              </a>
+  
+              <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+  
+              
+              <div class="collapse navbar-collapse justify-content-between nav-contenido" id="navbarNav">
+  
+                <a class="navbar-brand" href="#">
+                  <img class="logo logo-2" src="../imagenes/logo.png" alt="Logo">
+                </a>
+  
+                    <ul class="navbar-nav nav-ul">
+                         <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../html/tiendas.html">TIENDAS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../html/productos.html">PRODUCTOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../html/nosotros.html">NOSOTROS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../html/contacto.html">CONTACTO</a>
+                        </li>
+                    </ul>
+  
+                    <div class="caja-iconos">
+                        <input class="input-menu" type="text" name="" id="">
+                        <a href="#" class="iconos-header">
+                            <i class="bi bi-search"></i>
+                         </a>             
+                        <a href="#" class="iconos-header">
+                            <i class="bi bi-handbag"></i>
+                        </a>             
+                    </div>
+                </div>
+            </div>
+        </nav>
+          
+    </header>
+
+    
+    <main>
+
+        <!-------------------------------- CIRCULOS-PRODUCTOS ------------------------------->
+
+        <div class="circulos-productos">
+
+            <h2 class="titulos">PRODUCTOS</h2>
+
+            <div class="contenedor-circulos-productos">
+
+                <div class="tipos-de-productos">
+
+                    <div>
+                        <div class="circulo">
+                            <img class="iconos-productos" src="../imagenes/zapatos-icono.png" alt="icono-zapatos">
+                        </div>
+
+                        <div class="sub-circulos">
+                            <p>ZAPATOS</p>
+                        </div>
+
+                    </div>
+                    
+                    <div>
+                        <div class="circulo">
+                            <img class="iconos-productos" src="../imagenes/lentes-icono.png" alt="icono-accesorios">
+                        </div>
+
+                        <div class="sub-circulos">
+                            <p>ACCESORIOS</p>
+                        </div>
+
+                    </div>
+                    
+                    <div>
+                        <div class="circulo">
+                            <img class="iconos-productos" src="../imagenes/ropa-icono.png" alt="Icono-ropa">
+                        </div>
+
+                        <div class="sub-circulos">
+                            <p>ROPA</p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+             
+        <!------------------- TODOS-LOS-PRODUCTOS -------------------------------->  
+
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="container-fluid contenedor-productos">
+
+            <div class="lista-categoria">
+                <div>
+                    <h2>GENERO</h2>
+                    <ul>
+                        <li>Hombre</li>
+                        <li>Mujer</li>
+                        <li>Niños</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h2>CATEGORIAS</h2>
+                    <ul>
+                        <li>Deportes</li>
+                        <li>Casual</li>
+                        <li>Fiesta</li>
+                        <li>Bañadores</li>
+                        <li>Formal</li>
+                        <li>Vintage</li>
+                    </ul>
+                </div>
+            </div>
+
+                <div class="row">
+
+                    <div class="col-xl-4 col-md-6 col-sm-12 d-flex justify-content-center">
+
+                        <div class="card card-productos" style="width: 90%;">
+                            <img src="../imagenes/buzo-manga-larga.webp" class="card-img-top img-productos" alt="...">
+                            <div class="card-body card-body-productos">
+                                <h5 class="card-title">Camiseta blanca</h5>
+                                <p class="card-text">$4999</p>
+                                <a href="#" class="btn-carrito">Agregar al carrito</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-xl-4 col-md-6 col-sm-12 d-flex justify-content-center">
+
+                        <div class="card card-productos" style="width: 90%;">
+                            <img src="../imagenes/camisa-mujer.webp" class="card-img-top img-productos" alt="...">
+                            <div class="card-body card-body-productos">
+                                <h5 class="card-title">Camisa mujer</h5>
+                                <p class="card-text">$2999</p>
+                                <a href="#" class="btn-carrito">Agregar al carrito</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-xl-4 col-md-6 col-sm-12 d-flex justify-content-center">
+
+                        <div class="card card-productos" style="width: 90%;">
+                            <img src="../imagenes/sueter-negro.webp" class="card-img-top img-productos" alt="...">
+                            <div class="card-body card-body-productos">
+                                <h5 class="card-title">Sueter negro</h5>
+                                <p class="card-text">$3499</p>
+                                <a href="#" class="btn-carrito">Agregar al carrito</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-xl-4 col-md-6 col-sm-12 d-flex justify-content-center">
+
+                        <div class="card card-productos" style="width: 90%;">
+                            <img src="../imagenes/zapatillas-blancas.webp" class="card-img-top img-productos" alt="...">
+                            <div class="card-body card-body-productos">
+                                <h5 class="card-title">zapatillas blancas</h5>
+                                <p class="card-text">$6999</p>
+                                <a href="#" class="btn-carrito">Agregar al carrito</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-xl-4 col-md-6 col-sm-12 d-flex justify-content-center">
+
+                        <div class="card card-productos" style="width: 90%;">
+                            <img src="../imagenes/zapatillas-mujer-blancas-rosa.webp" class="card-img-top img-productos" alt="...">
+                            <div class="card-body card-body-productos">
+                                <h5 class="card-title">zapatillas mujer blancas</h5>
+                                <p class="card-text">$5999</p>
+                                <a href="#" class="btn-carrito">Agregar al carrito</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-xl-4 col-md-6 col-sm-12 d-flex justify-content-center">
+
+                        <div class="card card-productos" style="width: 90%;">
+                            <img src="../imagenes/botas-cuero.webp" class="card-img-top img-productos" alt="...">
+                            <div class="card-body card-body-productos">
+                                <h5 class="card-title">Botas cuero hombre</h5>
+                                <p class="card-text">$6499</p>
+                                <a href="#" class="btn-carrito">Agregar al carrito</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-xl-4 col-md-6 col-sm-12 d-flex justify-content-center">
+
+                        <div class="card card-productos" style="width: 90%;">
+                            <img src="../imagenes/gorra-blanca-hombre.webp" class="card-img-top img-productos" alt="...">
+                            <div class="card-body card-body-productos">
+                                <h5 class="card-title">Gorra blanca hombre</h5>
+                                <p class="card-text">$999</p>
+                                <a href="#" class="btn-carrito">Agregar al carrito</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-xl-4 col-md-6 col-sm-12 d-flex justify-content-center">
+
+                        <div class="card card-productos" style="width: 90%;">
+                            <img src="../imagenes/gorra-blanca-mujer.webp" class="card-img-top img-productos" alt="...">
+                            <div class="card-body card-body-productos">
+                                <h5 class="card-title">Gorra blanca mujer</h5>
+                                <p class="card-text">$999</p>
+                                <a href="#" class="btn-carrito">Agregar al carrito</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-xl-4 col-md-6 col-sm-12 d-flex justify-content-center">
+
+                        <div class="card card-productos" style="width: 90%;">
+                            <img src="../imagenes/lentes-sol-producto.webp" class="card-img-top img-productos" alt="...">
+                            <div class="card-body card-body-productos">
+                                <h5 class="card-title">Lentes de sol mujer</h5>
+                                <p class="card-text">$4999</p>
+                                <a href="#" class="btn-carrito">Agregar al carrito</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+        </div>
+    </main>
+
+    <!--------- BOOSTRAP SCRIPT ------------>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <footer class="d-flex justify-content-center flex-column align-items-center">
+      
+        <div>
+          <span>© 2024 Euforia&Styles</span>
+        </div>
+        
+        <div class="justify-content-center d-flex">
+          <ul class="nav">
+            <li><i class="bi bi-twitter-x icono-footer"></i></li>
+            <li><i class="bi bi-instagram icono-footer"></i></li>
+            <li><i class="bi bi-whatsapp icono-footer"></i></li>
+          </ul>
+        </div>
+      </footer>
+    
+</body>
+</html>
