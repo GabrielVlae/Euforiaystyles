@@ -1,0 +1,34 @@
+//CONTACTO
+
+.banner-contacto {
+    background-color: $color-secundario;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .contacto {
+    padding: 80px;
+    background-image: url(../imagenes/fondo-form.webp);
+    background-size: cover;
+  }
+  
+  form {
+    background-color: $color-secundario;
+    padding: 40px;
+    border-radius: 20px;
+    width: 50%;
+  }
+  
+  .mensaje {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .btn-contacto {
+    @include btn;
+    float: right;
+  
+    &:hover {
+      background-color: $btn-color-sec;
+    }
+  }

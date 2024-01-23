@@ -1,0 +1,32 @@
+//CIRCULOS-PRODUCTOS
+
+.tipos-de-productos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  .circulo {
+    padding: 20px;
+    border: black 1px solid;
+    border-radius: 50%;
+    margin: 0px 30px;
+    cursor: pointer;
+    transition: all 0.2s;
+  
+    &:hover {
+      scale: 1.1;
+    }
+  }
+  
+  .sub-circulos {
+    padding: 10px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .iconos-productos {
+    width: 50px;
+    height: 40px;
+  }

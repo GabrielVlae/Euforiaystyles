@@ -1,0 +1,18 @@
+//FOOTER
+
+footer {
+    color: white;
+    background-color: black;
+    padding: 50px 10px;
+    font-size: 1.35rem;
+  }
+  
+  .icono-footer {
+    cursor: pointer;
+    transition: all 0.2s;
+    color: white;
+  
+    &:hover {
+      color: gray;
+    }
+  }

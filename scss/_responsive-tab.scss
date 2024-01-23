@@ -1,0 +1,64 @@
+//RESPONSIVE TABLET
+
+@media (min-width: 577px) and (max-width: 992px) {
+    .logo-2 {
+      display: none;
+    }
+  
+    header ul {
+      text-align: center;
+      font-size: 2.5rem;
+    }
+  
+    .caja-iconos {
+      display: flex;
+      justify-content: center;
+    }
+  
+    .iconos-header {
+      padding: 0px 10px;
+    }
+  
+    .nav-contenido {
+      height: 100vh;
+    }
+  
+    .titulos {
+      font-size: 2.8rem;
+    }
+  
+    .contenedor-banner {
+      border: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      border-right: none;
+      padding: 45px 60px;
+    }
+  
+    iframe {
+      width: 85%;
+    }
+  
+    .lista-categoria {
+      display: none;
+    }
+  
+    .contenedor-productos {
+      grid: none;
+    }
+  
+    .subtitulos {
+      font-size: 1.55rem;
+    }
+  
+    .contacto {
+      background: none;
+      padding: 50px 40px;
+    }
+  
+    form {
+      width: 100%;
+    }
+  }

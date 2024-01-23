@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descubre moda sin complicaciones en Euforia&Style. Explora las últimas tendencias para todos, desde lo casual hasta lo elegante. Tu estilo, tu elección. ¡Compra ahora en Euforia&Style">
     <title>Productos</title>
     <!-------------- BOOSTRAP --------------->
     <link
@@ -11,9 +12,11 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"/>
     <!----------- CSS ------------->
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/style.css">
     <!----------- BOOSTRAP ICONOS --------------->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="../imagenes/favicon.png" type="image/x-icon">
 </head>
 <body>
 
@@ -24,7 +27,7 @@
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
   
-              <a class="navbar-brand" href="#">
+              <a class="navbar-brand" href="../index.html">
                 <img class="logo logo-1" src="../imagenes/logo.png" alt="Logo">
               </a>
   
@@ -35,7 +38,7 @@
               
               <div class="collapse navbar-collapse justify-content-between nav-contenido" id="navbarNav">
   
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="../index.html">
                   <img class="logo logo-2" src="../imagenes/logo.png" alt="Logo">
                 </a>
   
@@ -79,7 +82,7 @@
 
         <div class="circulos-productos">
 
-            <h2 class="titulos">PRODUCTOS</h2>
+            <h1 class="titulos">PRODUCTOS</h1>
 
             <div class="contenedor-circulos-productos">
 
@@ -124,14 +127,10 @@
              
         <!------------------- TODOS-LOS-PRODUCTOS -------------------------------->  
 
-        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
         <div class="container-fluid contenedor-productos">
 
             <div class="lista-categoria">
-                <div>
+                <div class="contenedor-categroias">
                     <h2>GENERO</h2>
                     <ul>
                         <li>Hombre</li>
@@ -140,7 +139,7 @@
                     </ul>
                 </div>
 
-                <div>
+                <div class="contenedor-categroias">
                     <h2>CATEGORIAS</h2>
                     <ul>
                         <li>Deportes</li>
@@ -149,20 +148,23 @@
                         <li>Bañadores</li>
                         <li>Formal</li>
                         <li>Vintage</li>
+                        <li>Urbano</li>
+                        <li>Urbano</li>
+                        <li>Oversize</li>
+                        <li>Trabajo</li>
                     </ul>
                 </div>
             </div>
-
                 <div class="row">
 
                     <div class="col-xl-4 col-md-6 col-sm-12 d-flex justify-content-center">
 
                         <div class="card card-productos" style="width: 90%;">
-                            <img src="../imagenes/buzo-manga-larga.webp" class="card-img-top img-productos" alt="...">
+                            <img src="../imagenes/buzo-manga-larga.webp" class="card-img-top img-productos" alt="Camiseta-blanca">
                             <div class="card-body card-body-productos">
-                                <h5 class="card-title">Camiseta blanca</h5>
+                                <h3 class="card-title card-titulo">Camiseta blanca</h3>
                                 <p class="card-text">$4999</p>
-                                <a href="#" class="btn-carrito">Agregar al carrito</a>
+                                <a href="#" class="btn-carrito"><i class="bi bi-cart4"></i> Agregar al carrito</a>
                             </div>
                         </div>
 
@@ -170,11 +172,11 @@
                     <div class="col-xl-4 col-md-6 col-sm-12 d-flex justify-content-center">
 
                         <div class="card card-productos" style="width: 90%;">
-                            <img src="../imagenes/camisa-mujer.webp" class="card-img-top img-productos" alt="...">
+                            <img src="../imagenes/camisa-mujer.webp" class="card-img-top img-productos" alt="Camisa-mujer">
                             <div class="card-body card-body-productos">
-                                <h5 class="card-title">Camisa mujer</h5>
+                                <h3 class="card-title card-titulo">Camisa mujer</h3>
                                 <p class="card-text">$2999</p>
-                                <a href="#" class="btn-carrito">Agregar al carrito</a>
+                                <a href="#" class="btn-carrito"><i class="bi bi-cart4"></i> Agregar al carrito</a>
                             </div>
                         </div>
 
@@ -182,11 +184,11 @@
                     <div class="col-xl-4 col-md-6 col-sm-12 d-flex justify-content-center">
 
                         <div class="card card-productos" style="width: 90%;">
-                            <img src="../imagenes/sueter-negro.webp" class="card-img-top img-productos" alt="...">
+                            <img src="../imagenes/sueter-negro.webp" class="card-img-top img-productos" alt="Sueter-negro">
                             <div class="card-body card-body-productos">
-                                <h5 class="card-title">Sueter negro</h5>
+                                <h3 class="card-title card-titulo">Sueter negro</h3>
                                 <p class="card-text">$3499</p>
-                                <a href="#" class="btn-carrito">Agregar al carrito</a>
+                                <a href="#" class="btn-carrito"><i class="bi bi-cart4"></i> Agregar al carrito</a>
                             </div>
                         </div>
 
@@ -194,11 +196,11 @@
                     <div class="col-xl-4 col-md-6 col-sm-12 d-flex justify-content-center">
 
                         <div class="card card-productos" style="width: 90%;">
-                            <img src="../imagenes/zapatillas-blancas.webp" class="card-img-top img-productos" alt="...">
+                            <img src="../imagenes/zapatillas-blancas.webp" class="card-img-top img-productos" alt="Zapatillas-blancas">
                             <div class="card-body card-body-productos">
-                                <h5 class="card-title">zapatillas blancas</h5>
+                                <h3 class="card-title card-titulo">zapatillas blancas</h3>
                                 <p class="card-text">$6999</p>
-                                <a href="#" class="btn-carrito">Agregar al carrito</a>
+                                <a href="#" class="btn-carrito"><i class="bi bi-cart4"></i> Agregar al carrito</a>
                             </div>
                         </div>
 
@@ -206,11 +208,11 @@
                     <div class="col-xl-4 col-md-6 col-sm-12 d-flex justify-content-center">
 
                         <div class="card card-productos" style="width: 90%;">
-                            <img src="../imagenes/zapatillas-mujer-blancas-rosa.webp" class="card-img-top img-productos" alt="...">
+                            <img src="../imagenes/zapatillas-mujer-blancas-rosa.webp" class="card-img-top img-productos" alt="Zapatillas-mujer-blancas">
                             <div class="card-body card-body-productos">
-                                <h5 class="card-title">zapatillas mujer blancas</h5>
+                                <h3 class="card-title card-titulo">zapatillas mujer blancas</h3>
                                 <p class="card-text">$5999</p>
-                                <a href="#" class="btn-carrito">Agregar al carrito</a>
+                                <a href="#" class="btn-carrito"><i class="bi bi-cart4"></i> Agregar al carrito</a>
                             </div>
                         </div>
 
@@ -218,11 +220,11 @@
                     <div class="col-xl-4 col-md-6 col-sm-12 d-flex justify-content-center">
 
                         <div class="card card-productos" style="width: 90%;">
-                            <img src="../imagenes/botas-cuero.webp" class="card-img-top img-productos" alt="...">
+                            <img src="../imagenes/botas-cuero.webp" class="card-img-top img-productos" alt="Botas-cuero-hombre">
                             <div class="card-body card-body-productos">
-                                <h5 class="card-title">Botas cuero hombre</h5>
+                                <h3 class="card-title card-titulo">Botas cuero hombre</h3>
                                 <p class="card-text">$6499</p>
-                                <a href="#" class="btn-carrito">Agregar al carrito</a>
+                                <a href="#" class="btn-carrito"><i class="bi bi-cart4"></i> Agregar al carrito</a>
                             </div>
                         </div>
 
@@ -230,11 +232,11 @@
                     <div class="col-xl-4 col-md-6 col-sm-12 d-flex justify-content-center">
 
                         <div class="card card-productos" style="width: 90%;">
-                            <img src="../imagenes/gorra-blanca-hombre.webp" class="card-img-top img-productos" alt="...">
+                            <img src="../imagenes/gorra-blanca-hombre.webp" class="card-img-top img-productos" alt="Gorra-blanca-hombre">
                             <div class="card-body card-body-productos">
-                                <h5 class="card-title">Gorra blanca hombre</h5>
+                                <h3 class="card-title card-titulo">Gorra blanca hombre</h3>
                                 <p class="card-text">$999</p>
-                                <a href="#" class="btn-carrito">Agregar al carrito</a>
+                                <a href="#" class="btn-carrito"><i class="bi bi-cart4"></i> Agregar al carrito</a>
                             </div>
                         </div>
 
@@ -242,11 +244,11 @@
                     <div class="col-xl-4 col-md-6 col-sm-12 d-flex justify-content-center">
 
                         <div class="card card-productos" style="width: 90%;">
-                            <img src="../imagenes/gorra-blanca-mujer.webp" class="card-img-top img-productos" alt="...">
+                            <img src="../imagenes/gorra-blanca-mujer.webp" class="card-img-top img-productos" alt="gorra-blanca-mujer">
                             <div class="card-body card-body-productos">
-                                <h5 class="card-title">Gorra blanca mujer</h5>
+                                <h3 class="card-title card-titulo">Gorra blanca mujer</h3>
                                 <p class="card-text">$999</p>
-                                <a href="#" class="btn-carrito">Agregar al carrito</a>
+                                <a href="#" class="btn-carrito"><i class="bi bi-cart4"></i> Agregar al carrito</a>
                             </div>
                         </div>
 
@@ -254,11 +256,11 @@
                     <div class="col-xl-4 col-md-6 col-sm-12 d-flex justify-content-center">
 
                         <div class="card card-productos" style="width: 90%;">
-                            <img src="../imagenes/lentes-sol-producto.webp" class="card-img-top img-productos" alt="...">
+                            <img src="../imagenes/lentes-sol-producto.webp" class="card-img-top img-productos" alt="Lentes-sol-mujer">
                             <div class="card-body card-body-productos">
-                                <h5 class="card-title">Lentes de sol mujer</h5>
+                                <h3 class="card-title card-titulo">Lentes de sol mujer</h3>
                                 <p class="card-text">$4999</p>
-                                <a href="#" class="btn-carrito">Agregar al carrito</a>
+                                <a href="#" class="btn-carrito"><i class="bi bi-cart4"></i> Agregar al carrito</a>
                             </div>
                         </div>
 
@@ -268,6 +270,23 @@
         </div>
     </main>
 
+    <!------------------- FOOTER ----------------->
+    
+    <footer class="d-flex justify-content-center flex-column align-items-center">
+        
+        <div>
+            <span>© 2024 Euforia&Styles</span>
+        </div>
+        
+        <div class="justify-content-center d-flex">
+            <ul class="nav">
+              <li><a target="_blank" href="https://twitter.com/"><i class="bi bi-twitter-x icono-footer"></i></a></li>
+              <li><a target="_blank" href="https://www.instagram.com/"><i class="bi bi-instagram icono-footer"></i></a></li>
+              <li><a target="_blank" href="https://web.whatsapp.com/"><i class="bi bi-whatsapp icono-footer"></i></a></li>
+            </ul>
+          </div>
+    </footer>
+    
     <!--------- BOOSTRAP SCRIPT ------------>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
@@ -275,20 +294,5 @@
       crossorigin="anonymous"
     ></script>
 
-    <footer class="d-flex justify-content-center flex-column align-items-center">
-      
-        <div>
-          <span>© 2024 Euforia&Styles</span>
-        </div>
-        
-        <div class="justify-content-center d-flex">
-          <ul class="nav">
-            <li><i class="bi bi-twitter-x icono-footer"></i></li>
-            <li><i class="bi bi-instagram icono-footer"></i></li>
-            <li><i class="bi bi-whatsapp icono-footer"></i></li>
-          </ul>
-        </div>
-      </footer>
-    
 </body>
 </html>

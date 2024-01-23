@@ -1,0 +1,77 @@
+//RESPONSIVE CELULAR
+
+@media (max-width: 576px) {
+    .logo-2 {
+      display: none;
+    }
+  
+    .titulos {
+      font-size: 2.1rem;
+    }
+  
+    header ul {
+      text-align: center;
+      font-size: 2.0rem;
+    }
+  
+    .caja-iconos {
+      display: flex;
+      justify-content: center;
+    }
+  
+    .iconos-header {
+      padding: 0px 10px;
+    }
+  
+    .nav-contenido {
+      height: 100vh;
+      transition: all 0.3s;
+    }
+  
+    .contenedor-circulos {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .contenedor-banner {
+      border-right: none;
+      padding: 45px 60px;
+    }
+  
+    iframe {
+      width: 100%;
+    }
+  
+    .iconos-productos {
+      width: 33px;
+      height: 29px;
+    }
+  
+    .circulo {
+      margin: 0px 20px;
+    }
+  
+    .lista-categoria {
+      margin-bottom: 25px;
+      
+    }
+  
+    .contenedor-productos {
+        grid: none;
+    }
+  
+    .subtitulos {
+      font-size: 1.2rem;
+    }
+  
+    .contacto {
+      background: none;
+      padding: 30px 16px;
+    }
+  
+    form {
+      width: 100%;
+    }
+  }

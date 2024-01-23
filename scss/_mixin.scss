@@ -1,0 +1,24 @@
+
+
+@mixin anclas{
+    text-decoration: none;
+    color: black;
+    transition: all 0.2s;
+}
+
+@mixin btn{
+    border: none;
+    background-color: $btn-color-pri;
+    color: white;
+    padding: 10px;
+    font-weight: 500;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+@mixin titulos{
+    text-align: center;
+    font-size: 100px;
+    padding: 50px;
+}

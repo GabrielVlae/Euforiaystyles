@@ -1,0 +1,43 @@
+//CIRCULOS-HOME
+
+.titulo-home {
+    padding: 0;
+    margin-top: 40px;
+  }
+  
+  .circulos-home {
+    width: 245px;
+    height: 245px;
+    background-color: $color-secundario;
+    border-radius: 50%;
+    margin: 15px 0px;
+  }
+  
+  .caja-circulos {
+    padding: 0px 80px 80px 80px;
+  }
+  
+  .contenedor-circulos-home {
+    margin: 30px 0px;
+  }
+  
+  .circulos-home img {
+    width: 100%;
+    height: 170px;
+    object-fit: contain;
+    transition: all 0.4s;
+  
+    &:hover {
+      scale: 1.1;
+    }
+  }
+  
+  .btn-circulos {
+    @include btn;
+    padding: 10px 25px;
+  
+    &:hover {
+      scale: 1.1;
+      background-color: $btn-color-sec;
+    }
+  }

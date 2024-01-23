@@ -1,0 +1,29 @@
+
+//BANNER-INFO
+
+.banner-info {
+    background-color: $color-secundario;
+    text-align: center;
+    padding: 50px;
+  
+    h3 {
+      font-size: 0.8rem;
+      font-weight: bold;
+    }
+  }
+  
+  .contenedor-banner {
+    padding: 30px 60px;
+    border-right: 1px solid rgb(23, 23, 23);
+    display: inline-block;
+  }
+  
+  .iconos-banner-info {
+    width: 65px;
+    height: 65px;
+  }
+  
+  .borde-final {
+    border-right: none;
+  }
+  
