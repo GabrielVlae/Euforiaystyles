@@ -18,6 +18,10 @@
       display: flex;
       justify-content: center;
     }
+
+    .input-menu{
+      display: block;
+    }
   
     .iconos-header {
       padding: 0px 10px;
@@ -44,14 +48,20 @@
       width: 100%;
     }
   
+    .tipos-de-productos{
+      gap: 0;
+    }
+    
+    .circulo{
+      padding: 15px 20px;
+      border: solid 1px black;
+    }
+    
     .iconos-productos {
-      width: 33px;
-      height: 29px;
+      width: 25px;
+      height: 25px;
     }
-  
-    .circulo {
-      margin: 0px 20px;
-    }
+
   
     .lista-categoria {
       margin-bottom: 25px;

@@ -14,6 +14,11 @@
       display: flex;
       justify-content: center;
     }
+
+    .input-menu{
+      display: block;
+      width: 70%;
+    }
   
     .iconos-header {
       padding: 0px 10px;
@@ -42,9 +47,13 @@
     }
   
     .lista-categoria {
-      display: none;
+      margin-bottom: 25px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      padding: 0 80px;
     }
-  
+
     .contenedor-productos {
       grid: none;
     }

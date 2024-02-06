@@ -31,7 +31,7 @@
   
   .contenedor-productos {
     display: grid;
-    grid-template-columns: repeat(1, 20% 1fr);
+    grid-template-columns: 20% 1fr;
   }
   
   .img-productos {

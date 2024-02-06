@@ -9,7 +9,7 @@ header {
     height: 4.24rem;
   }
   
-  .logo-2, .input-menu {
+  .logo-2{
     display: none;
   }
   
@@ -18,22 +18,23 @@ header {
     padding: 0 5px;
     color: black;
   }
+
+  .input-menu{
+    border: solid 1px black;
+    display: none
+  }
   
   .nav-ul a {
     @include anclas;
   
     &:hover {
-      font-weight: 600;
+      font-weight: bold;
       scale: 1.1;
-    }
+       }
   }
   
   li {
     list-style-type: none;
     display: inline-block;
     padding: 0px 20px;
-  }
-
-  .carrousel{
-    transition: all 1s;
   }

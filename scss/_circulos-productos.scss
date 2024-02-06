@@ -5,19 +5,29 @@
     justify-content: center;
     align-items: center;
     padding: 40px;
+    gap: 10px;
   }
   
   .circulo {
-    padding: 20px;
-    border: black 1px solid;
+    border: black 2px solid;
     border-radius: 50%;
-    margin: 0px 30px;
     cursor: pointer;
     transition: all 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 30px;
   
     &:hover {
       scale: 1.1;
     }
+  }
+
+  .caja-circulos-productos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
   
   .sub-circulos {
@@ -27,6 +37,6 @@
   }
   
   .iconos-productos {
-    width: 50px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
   }
